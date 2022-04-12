@@ -1,0 +1,443 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.28f1 (f5400f52e03f) revision 16072719'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16308 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/lukeb/My project (1)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54089
+Successfully changed project path to: C:/Users/lukeb/My project (1)
+C:/Users/lukeb/My project (1)
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 88.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.28f1 (f5400f52e03f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/lukeb/My project (1)/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
+    Vendor:   
+    VRAM:     4053 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002864 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 91.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.742 seconds
+Domain Reload Profiling:
+	ReloadAssembly (742ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (581ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (170ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (252ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005652 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 94.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.583 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1584ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1327ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (411ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (567ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (304ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Switching render pipeline ae33d0d766e10894eadb5231fd070db6 -> 00000000000000000000000000000000
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3560 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.3 MB.
+System memory in use after: 153.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3994.
+Total: 4.892500 ms (FindLiveObjects: 0.343200 ms CreateObjectMapping: 0.114800 ms MarkObjects: 4.222300 ms  DeleteObjects: 0.211000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.8 MB.
+System memory in use after: 76.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3995.
+Total: 3.961800 ms (FindLiveObjects: 0.321700 ms CreateObjectMapping: 0.096800 ms MarkObjects: 3.509300 ms  DeleteObjects: 0.033200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:srp/default-shader: 0d000000000000000000000000000000 -> 00a0da0d000000000000000000000000
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/HDRPDefaultResources/Foliage Diffusion Profile.asset
+  artifactKey: Guid(118206d2154740b4f90a05470b8eeb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/Foliage Diffusion Profile.asset using Guid(118206d2154740b4f90a05470b8eeb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fde8a3fed8d6a58f0f1318b6237e47') in 0.057173 seconds 
+  Import took 0.064622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset
+  artifactKey: Guid(ae33d0d766e10894eadb5231fd070db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset using Guid(ae33d0d766e10894eadb5231fd070db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b8c9663843925f9bb2284c1ed57344') in 0.118951 seconds 
+  Import took 0.128751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/HDRPDefaultResources/Skin Diffusion Profile.asset
+  artifactKey: Guid(69deaa9a2a1c8884da95d51911ee26b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/Skin Diffusion Profile.asset using Guid(69deaa9a2a1c8884da95d51911ee26b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ffb09e8de07e68571a01f9a72864ab2') in 0.010558 seconds 
+  Import took 0.016143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.712881 seconds.
+  path: Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset
+  artifactKey: Guid(cdaa41897dd25e34db5f5e8aeb05d3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset using Guid(cdaa41897dd25e34db5f5e8aeb05d3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93348f2f728df50c9bafcd0dd176104') in 0.070658 seconds 
+  Import took 0.081944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.235568 seconds.
+  path: Assets/HDRPDefaultResources/DefaultLookDevProfile.asset
+  artifactKey: Guid(cf568e5e07ca0cf45aa4818278944ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/DefaultLookDevProfile.asset using Guid(cf568e5e07ca0cf45aa4818278944ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c9939484c1b518cc3fef29308c58dc') in 0.018004 seconds 
+  Import took 0.030916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset
+  artifactKey: Guid(ae33d0d766e10894eadb5231fd070db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset using Guid(ae33d0d766e10894eadb5231fd070db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15eab863972304fb8cd9c4bc8944882') in 0.159832 seconds 
+  Import took 0.178230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 258.724066 seconds.
+  path: Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset
+  artifactKey: Guid(ae33d0d766e10894eadb5231fd070db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset using Guid(ae33d0d766e10894eadb5231fd070db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49d1271b26dbb54e7c78a6f3a89255e') in 0.119286 seconds 
+  Import took 0.130918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.322610 seconds.
+  path: Assets/Scenes/SampleScene/Box Volume Profile.asset
+  artifactKey: Guid(ac7dce44af07c7341bf550e23588fa68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/Box Volume Profile.asset using Guid(ac7dce44af07c7341bf550e23588fa68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289bc217250c2f08e71c1b054a6ce39a') in 0.019686 seconds 
+  Import took 0.026281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Scenes/SampleScene/GameObject (1) Profile.asset
+  artifactKey: Guid(3e9a0d63e0ebb1d46abc7ddbff224443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/GameObject (1) Profile.asset using Guid(3e9a0d63e0ebb1d46abc7ddbff224443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c74a59d4e38b1908caab77e616f2826') in 0.010090 seconds 
+  Import took 0.016710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 220.576024 seconds.
+  path: Assets/HDRPDefaultResources/DefaultLookDevProfile.asset
+  artifactKey: Guid(cf568e5e07ca0cf45aa4818278944ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/DefaultLookDevProfile.asset using Guid(cf568e5e07ca0cf45aa4818278944ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166021ee666b7b62c9fef9b5758a7123') in 0.004482 seconds 
+  Import took 0.012136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset
+  artifactKey: Guid(cdaa41897dd25e34db5f5e8aeb05d3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset using Guid(cdaa41897dd25e34db5f5e8aeb05d3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228e8a324a41eadd2c08ea1f8cde6083') in 0.005753 seconds 
+  Import took 0.012649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.064230 seconds.
+  path: Assets/New Lighting Settings 1.lighting
+  artifactKey: Guid(904710db0ade3b34b92a3f5bf1277df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Lighting Settings 1.lighting using Guid(904710db0ade3b34b92a3f5bf1277df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 2.
+ -> (artifact id: 'b177d80c22283169d9db44bbb73a4582') in 0.012076 seconds 
+  Import took 0.018180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.625320 seconds.
+  path: Assets/New Lighting Settings.lighting
+  artifactKey: Guid(9537b1b46923a27469401563e5227b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Lighting Settings.lighting using Guid(9537b1b46923a27469401563e5227b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 2.
+ -> (artifact id: 'ca9cd7ce69e421bef9ef408a728310d6') in 0.008453 seconds 
+  Import took 0.015068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.888100 seconds.
+  path: Assets/New Lighting Settings.lighting
+  artifactKey: Guid(9537b1b46923a27469401563e5227b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Lighting Settings.lighting using Guid(9537b1b46923a27469401563e5227b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43043220ee2678a3512f94b3eea956b9') in 0.003798 seconds 
+  Import took 0.009315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.099509 seconds.
+  path: Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset
+  artifactKey: Guid(cdaa41897dd25e34db5f5e8aeb05d3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset using Guid(cdaa41897dd25e34db5f5e8aeb05d3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f182db0e3915beb5606ef8913a3b60d') in 0.005635 seconds 
+  Import took 0.012117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.274380 seconds.
+  path: Assets/New Lighting Settings.lighting
+  artifactKey: Guid(9537b1b46923a27469401563e5227b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Lighting Settings.lighting using Guid(9537b1b46923a27469401563e5227b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 2.
+ -> (artifact id: '7eed065e18c27303239808d86f417b73') in 0.003924 seconds 
+  Import took 0.010683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.772692 seconds.
+  path: Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset
+  artifactKey: Guid(cdaa41897dd25e34db5f5e8aeb05d3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset using Guid(cdaa41897dd25e34db5f5e8aeb05d3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3948c314b25a36842b9a6d736d4ba2e1') in 0.007896 seconds 
+  Import took 0.014698 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.4 MB.
+System memory in use after: 77.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3994.
+Total: 4.651000 ms (FindLiveObjects: 0.311900 ms CreateObjectMapping: 0.097600 ms MarkObjects: 4.200000 ms  DeleteObjects: 0.040400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 177.974917 seconds.
+  path: Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset
+  artifactKey: Guid(ae33d0d766e10894eadb5231fd070db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset using Guid(ae33d0d766e10894eadb5231fd070db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd162c07298c949186638a33258341c05') in 0.017861 seconds 
+  Import took 0.024890 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.4 MB.
+System memory in use after: 77.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3995.
+Total: 4.187400 ms (FindLiveObjects: 0.310400 ms CreateObjectMapping: 0.112900 ms MarkObjects: 3.738400 ms  DeleteObjects: 0.024800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:srp/default-shader: 0d000000000000000000000000000000 -> 00a0da0d000000000000000000000000
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2.264700 seconds.
+  path: Assets/HDRPDefaultResources/Foliage Diffusion Profile.asset
+  artifactKey: Guid(d5ca279e78c9f8548a06a1f0dc2493b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/Foliage Diffusion Profile.asset using Guid(d5ca279e78c9f8548a06a1f0dc2493b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4902d9d3ecf592b5ca720150ec628299') in 0.016906 seconds 
+  Import took 0.024915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset
+  artifactKey: Guid(ae33d0d766e10894eadb5231fd070db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset using Guid(ae33d0d766e10894eadb5231fd070db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2de130a44a6accb5659e60c54eee97') in 0.138371 seconds 
+  Import took 0.157678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/HDRPDefaultResources/Skin Diffusion Profile.asset
+  artifactKey: Guid(7649a480e2673b94599bde8b0dbab813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/Skin Diffusion Profile.asset using Guid(7649a480e2673b94599bde8b0dbab813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2992cfa653dcae16cc5a3c77b9291f') in 0.007665 seconds 
+  Import took 0.018540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.105686 seconds.
+  path: Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset
+  artifactKey: Guid(a01f70c5fa7a5ef4b9de900094e38b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset using Guid(a01f70c5fa7a5ef4b9de900094e38b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3013bb4b9d938e89847209d58e974fe2') in 0.010697 seconds 
+  Import took 0.021085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000631 seconds.
+  path: Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset
+  artifactKey: Guid(ae33d0d766e10894eadb5231fd070db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset using Guid(ae33d0d766e10894eadb5231fd070db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39d7a8f78a2daee3859284ee9d751c0') in 0.131794 seconds 
+  Import took 0.151223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.246351 seconds.
+  path: Assets/HDRPDefaultResources/DefaultLookDevProfile.asset
+  artifactKey: Guid(a4f61317ad201754ea1190e8c8fef02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/DefaultLookDevProfile.asset using Guid(a4f61317ad201754ea1190e8c8fef02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbd3034cfd62083a9ec000e055d4726') in 0.008610 seconds 
+  Import took 0.020722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset
+  artifactKey: Guid(ae33d0d766e10894eadb5231fd070db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset using Guid(ae33d0d766e10894eadb5231fd070db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b4882fbb90e67e2ddb736e0b8f0975') in 0.145083 seconds 
+  Import took 0.163067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 294.341767 seconds.
+  path: Assets/Scenes/SampleScene/GameObject (1) Profile 1.asset
+  artifactKey: Guid(e828199629c67294b93aacd9672df85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/GameObject (1) Profile 1.asset using Guid(e828199629c67294b93aacd9672df85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6971b5a9840a216bb3aadc043d93a658') in 0.008743 seconds 
+  Import took 0.015943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 181.522138 seconds.
+  path: Assets/HDRPDefaultResources/DefaultLookDevProfile.asset
+  artifactKey: Guid(a4f61317ad201754ea1190e8c8fef02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/DefaultLookDevProfile.asset using Guid(a4f61317ad201754ea1190e8c8fef02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8439178cad8a273c874f2c0cd6584fe6') in 0.004874 seconds 
+  Import took 0.011324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset
+  artifactKey: Guid(ae33d0d766e10894eadb5231fd070db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset using Guid(ae33d0d766e10894eadb5231fd070db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28d4a5cbb621140d443375aae6fd3b6') in 0.169962 seconds 
+  Import took 0.183927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset
+  artifactKey: Guid(a01f70c5fa7a5ef4b9de900094e38b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset using Guid(a01f70c5fa7a5ef4b9de900094e38b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60695820348da4b8c5b2ca590ec2aa14') in 0.047924 seconds 
+  Import took 0.056684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.448988 seconds.
+  path: Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset
+  artifactKey: Guid(a01f70c5fa7a5ef4b9de900094e38b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset using Guid(a01f70c5fa7a5ef4b9de900094e38b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5127ccdbfa5664d267f9574bdeaadcf') in 0.027581 seconds 
+  Import took 0.037114 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
