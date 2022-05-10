@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using System;
+using UnityEngine.Networking;
+
 public class Main: MonoBehaviour {
   public List < HitCircle > HitCircleList = new List < HitCircle > ();
   public AudioSource hitSounds;
+  public AudioClip songSource;
   public AudioSource Song;
   public string[][] hitObjects;
   public int bpm = -1;
@@ -16,16 +19,21 @@ public class Main: MonoBehaviour {
   public string HPDrainRate = null;
   public string OD = null;
   public int currentNote = 0;
-  public int currentNoteOld = 0;
+  public int currentNoteOld = 0;  
+  public string AudioFilename;
+  public bool isAudioLoaded = false;
+  public float loadingTime = -1;
   // Start is called before the first frame update
   void Start() {
-    readMap("Assets/Songs/t+pazolite & Camellia feat. Nanahira - Boku no Yume, Mecha Kuso Mugen Waki (Rhezie) [Normal].osu");
+    readMap(sceneData.mapDir, sceneData.osuFile);
   }
 
   List < string > readFile(string dir) {
     string line;
 
+    Debug.Log(dir);
     StreamReader sr = new StreamReader(dir);
+
 
     line = sr.ReadLine();
     List < string > file = new List < string > ();
@@ -42,14 +50,33 @@ public class Main: MonoBehaviour {
     return file;
   }
 
-  void readMap(string dir) {
+  void readMap(string dir, string osuFile) {
     string tmp = null;
     List < string > map = readFile(dir);
     List < string > timingPoints = new List < string > ();
     List < string > hitObjects = new List < string > ();
+    AudioFilename = null;
     title = null;
     artist = null;
     creator = null;
+
+   
+
+      for (int i = 0; i < map.Count; i++) {
+      tmp = map[i];
+      if (tmp.Contains("AudioFilename:")) {
+        AudioFilename = tmp;
+
+        AudioFilename = AudioFilename.Split(':')[1];
+        if (AudioFilename.StartsWith(" ")) {
+          AudioFilename = AudioFilename.Trim();
+        }
+        break;
+      }
+
+    }
+
+    StartCoroutine(wait(dir, osuFile));
 
     for (int i = 0; i < map.Count; i++) {
       tmp = map[i];
@@ -190,21 +217,22 @@ public class Main: MonoBehaviour {
     Debug.Log(creator);
     Debug.Log(HPDrainRate);
     Debug.Log(OD);
-    for (int i = 0; i < HitCircleList.Count; i++) {
-      Debug.Log(HitCircleList[i].x);
-      Debug.Log(HitCircleList[i].time);
-      Debug.Log(HitCircleList[i].type);
-    }
-    for (int i = 0; i < timingPointList.Count; i++) {
-      Debug.Log(timingPointList[i].time);
-      Debug.Log(timingPointList[i].beatLength);
-      Debug.Log(timingPointList[i].effects);
-    }
+    Debug.Log(("file://" + Application.dataPath + "/" + dir + "/" + AudioFilename).Replace(osuFile + "/", "").Replace("Assets/Assets/", "Assets/").Replace("\\", "/"));
+  //   for (int i = 0; i < HitCircleList.Count; i++) {
+  //     Debug.Log(HitCircleList[i].x);
+  //     Debug.Log(HitCircleList[i].time);
+  //     Debug.Log(HitCircleList[i].type);
+  //   }
+  //   for (int i = 0; i < timingPointList.Count; i++) {
+  //     Debug.Log(timingPointList[i].time);
+  //     Debug.Log(timingPointList[i].beatLength);
+  //     Debug.Log(timingPointList[i].effects);
+  //   }
   }
-  public int timer = 0;
   public bool played = false;
   // Update is called once per frame
   void Update() {
+    if(isAudioLoaded) {
     if (Input.GetKeyDown(KeyCode.D) == true || Input.GetKeyDown(KeyCode.F) == true || Input.GetKeyDown(KeyCode.J) == true || Input.GetKeyDown(KeyCode.K) == true) {
       hitSounds.Play();
     }
@@ -214,15 +242,16 @@ public class Main: MonoBehaviour {
     //    Song.Play();
     //}
 
-    int timeBefore = Mathf.RoundToInt(Time.time * 1000) - Mathf.RoundToInt(Time.deltaTime * 1000);
-    int time = Mathf.RoundToInt(Time.time * 1000) + Mathf.RoundToInt(Time.deltaTime * 1000);
-    if (Time.time > 3.179656f && !played) {
+    int timeBefore = Mathf.RoundToInt(Time.time - loadingTime * 1000) - Mathf.RoundToInt(Time.deltaTime * 1000);
+    int time = Mathf.RoundToInt(Time.time - loadingTime * 1000) + Mathf.RoundToInt(Time.deltaTime * 1000);
+    if (Time.time - loadingTime > 3.179656f && !played) {
       Song.Play();
       played = true;
     }
-
+        Debug.Log(time);
     if (HitCircleList[currentNote].time > timeBefore && HitCircleList[currentNote].time < time) {
       if (HitCircleList[currentNote].time == HitCircleList[currentNote + 1].time) {
+
         for (int i = 0; i < 2; i++) {
           if (HitCircleList[currentNote].x == 64) {
             NoteEmitters[0].GetComponent < Notes > ().NoteEvent();
@@ -276,7 +305,18 @@ public class Main: MonoBehaviour {
       }
       currentNote++;
     }
+    }
   }
+
+  private IEnumerator wait(string dir, string osuFile) {
+     UnityWebRequest request = UnityWebRequestMultimedia.GetAudioClip(("file://" + Application.dataPath + "/" + dir + "/" + AudioFilename).Replace(osuFile + "/", "").Replace("Assets/Assets/", "Assets/").Replace("\\", "/"), AudioType.MPEG);
+     yield return request.SendWebRequest();
+     Song.clip = DownloadHandlerAudioClip.GetContent(request);
+     isAudioLoaded = true;
+     loadingTime = Time.time;
+     
+
+}
 
 }
 
@@ -301,6 +341,7 @@ public class timingPoint {
   }
 
 }
+
 
 public class HitCircle {
   public int x;

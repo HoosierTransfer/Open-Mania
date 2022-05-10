@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_28;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_28;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;SYSTEM_DRAWING</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -36,12 +36,210 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\sceneData.cs" />
      <Compile Include="Assets\DFJKPressed.cs" />
      <Compile Include="Assets\LightingRainbowAnimation.cs" />
      <Compile Include="Assets\Notes.cs" />
      <Compile Include="Assets\Main.cs" />
      <Compile Include="Assets\mapSelect.cs" />
      <Compile Include="Assets\UI.cs" />
+     <None Include="Assets\Cubed&apos;s Unity Shaders\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiPass.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiOutlineFrag.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiFrag.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_Poicludes.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Shaders\S_Poiyomi_Toon.shader" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiPanosphere.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiHelpers.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiGrab.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiDefines.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_FunctionsArtistic.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Scripts\poi-tools\Resources\Poi\PoiTexturePacker.shader" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Shaders\S_Poiyomi_Toon.shader" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiEnvironmentalRimLighting.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiShadowVert.cginc" />
+     <None Include="Assets\_PoiyomiShaders\poiToonPresets.txt" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiMainTex.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_FunctionsArtistic.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiShadowFrag.cginc" />
+     <None Include="Assets\Cubed&apos;s Unity Shaders\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiBlending.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiData.cginc" />
+     <None Include="Assets\Cubed&apos;s Unity Shaders\Shaders\Misc Shaders\Simple Gradient Sky.shader" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiFrag.cginc" />
+     <None Include="Assets\Cubed&apos;s Unity Shaders\Shaders\CGIncludes\FlatLitToonCoreLite.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiIridescence.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiWireframe.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiShadowIncludes.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiMirror.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiShadowFrag.cginc" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiSpawnInVert.cginc" />
+     <None Include="Assets\Cubed&apos;s Unity Shaders\Shaders\Flat Lit Toon Lite\Flat Lit Toon Lite.shader" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiMirror.cginc" />
+     <None Include="Assets\Cubed&apos;s Unity Shaders\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_Poicludes.cginc" />
+     <None Include="Assets\Cubed&apos;s Unity Shaders\Shaders\Flat Lit Toon Lite\Flat Lit Toon Lite Cutout.shader" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiSpawnInVert.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiBlending.cginc" />
+     <None Include="Assets\Cubed&apos;s Unity Shaders\Shaders\Misc Shaders\Flat Lit Toon Rainbow.shader" />
+     <None Include="Assets\Cubed&apos;s Unity Shaders\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiOutlineFrag.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Scripts\poi-tools\Resources\Poi\PoiTextureUnpacker.shader" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiMainTex.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiPassOutline.cginc" />
+     <None Include="Assets\Cubed&apos;s Unity Shaders\Shaders\Flat Lite Toon\Flat Lit Toon.shader" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiPassShadow.cginc" />
+     <None Include="Assets\Cubed&apos;s Unity Shaders\Shaders\Flat Lit Toon Lite\Flat Lit Toon Lite Fade.shader" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Extras\InvisStencil.shader" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiAudioLink.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiBulge.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiVoronoi.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiDepthColor.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiClearCoat.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiBRDF.cginc" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiGrab.cginc" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiAlphaToCoverage.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiWireframe.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiPassOutline.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiMacros.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_Poicludes.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiShadowVert.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiGlitter.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiOutlineVert.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiVertexManipulations.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiShadowIncludes.cginc" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiMirror.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiPathing.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiPassShadow.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiBackFace.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiDecal.cginc" />
+     <None Include="Assets\Cubed&apos;s Unity Shaders\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiSpawnInFrag.cginc" />
+     <None Include="Assets\Cubed&apos;s Unity Shaders\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiRandom.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiVert.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiDithering.cginc" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiMath.cginc" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiPenetration.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiBlending.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiPass.cginc" />
+     <None Include="Assets\Cubed&apos;s Unity Shaders\Shaders\CGIncludes\FlatLitToonShadows.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiParallax.cginc" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiDithering.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\Notes.txt" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiVert.cginc" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiMainTex.cginc" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiPass.cginc" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiTessellation.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiDithering.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiFlipbook.cginc" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiShadowIncludes.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiUVDistortion.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiVert.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiDissolve.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiDefines.cginc" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiSpawnInFrag.cginc" />
+     <None Include="Assets\Cubed&apos;s Unity Shaders\Shaders\Misc Shaders\Unit Shadowed.shader" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiShadowIncludes.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiMath.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiRimLighting.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiSubsurfaceScattering.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiMSDF.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiData.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiBlackLight.cginc" />
+     <None Include="Assets\csc.rsp" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiData.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiSpawnInVert.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiSpawnInFrag.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiAlphaToCoverage.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiPenetration.cginc" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiMacros.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Shaders\7PlusLabels.txt" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\PoiLabels.txt" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiFrag.cginc" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiV2F.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiMacros.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiRGBMask.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiMirror.cginc" />
+     <None Include="Assets\Cubed&apos;s Unity Shaders\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
+     <None Include="Assets\_PoiyomiShaders\Scripts\ThryEditor\Examples\Example1.shader" />
+     <None Include="Assets\Cubed&apos;s Unity Shaders\Shaders\Misc Shaders\Flat Lit Toon Distance Fade.shader" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiOutlineVert.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiSpecular.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiMatcap.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiHologram.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiShadowVert.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiPass.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Scripts\ThryEditor\Examples\Example2.shader" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Shaders\S_Poiyomi_Toon.shader" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiSpawnInVert.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiDithering.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiVertexManipulations.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiGrab.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiPassShadow.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_Poicludes.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiWireframe.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiTessellation.cginc" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiBackFace.cginc" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiHelpers.cginc" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiShadowVert.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiAlphaToCoverage.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiMainTex.cginc" />
+     <None Include="Assets\Cubed&apos;s Unity Shaders\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiTessellation.cginc" />
+     <None Include="Assets\Cubed&apos;s Unity Shaders\Shaders\Flat Lit Toon Lite\Flat Lit Toon Lite Transparent.shader" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiSpawnInFrag.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiHelpers.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiEmission.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiGrab.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiDebug.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiMath.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiPenetration.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiV2F.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiDefines.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiPenetration.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiV2F.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiAlphaToCoverage.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiMath.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiHelpers.cginc" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiPassShadow.cginc" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiVert.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiFrag.cginc" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiData.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiOutlineFrag.cginc" />
+     <None Include="Assets\Cubed&apos;s Unity Shaders\UnityChan\Stage\Shader\AlphaMask.shader" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Extras\MasterScanner.shader" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiDefines.cginc" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiVertexManipulations.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\Notes\Includes\CGI_PoiLighting.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_FunctionsArtistic.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiMacros.cginc" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiWireframe.cginc" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_FunctionsArtistic.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiBackFace.cginc" />
+     <None Include="Assets\FlexibleCelShader\Shaders\CelNoOutline.shader" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiLighting.cginc" />
+     <None Include="Assets\Cubed&apos;s Unity Shaders\Shaders\CGIncludes\FlatLitToonCore.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiLighting.cginc" />
+     <None Include="Assets\Cubed&apos;s Unity Shaders\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiPassOutline.cginc" />
+     <None Include="Assets\FlexibleCelShader\Shaders\CelSilhouette.shader" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiOutlineVert.cginc" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Shaders\S_Poiyomi_Toon.shader" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiLighting.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiTessellation.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiShadowFrag.cginc" />
+     <None Include="Assets\Materials\OptimizedShaders\New Material\Includes\CGI_PoiBackFace.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiVertexManipulations.cginc" />
+     <None Include="Assets\FlexibleCelShader\Shaders\CelOutline.shader" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiBlending.cginc" />
+     <None Include="Assets\OptimizedShaders\New Material 4\Includes\CGI_PoiShadowFrag.cginc" />
+     <None Include="Assets\Cubed&apos;s Unity Shaders\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
+     <None Include="Assets\_PoiyomiShaders\Scripts\ThryEditor\Examples\ThryPresetsExample.txt" />
+     <None Include="Assets\_PoiyomiShaders\Scripts\ThryEditor\Examples\ThryLabelExample.txt" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiMetal.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiV2F.cginc" />
+     <None Include="Assets\_PoiyomiShaders\Shaders\Pro\Includes\CGI_PoiVideo.cginc" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.28f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -612,8 +810,8 @@
     <Reference Include="System.Xml.Serialization">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.28f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualEffectGraph.Editor">
-        <HintPath>C:\Users\lukeb\My project (1)\Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll</HintPath>
+    <Reference Include="System.Drawing">
+        <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.28f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Drawing.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>C:\Users\lukeb\My project (1)\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
@@ -624,26 +822,17 @@
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>C:\Users\lukeb\My project (1)\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualEffectGraph.Runtime">
-        <HintPath>C:\Users\lukeb\My project (1)\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>C:\Users\lukeb\My project (1)\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
         <HintPath>C:\Users\lukeb\My project (1)\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.HighDefinition.Runtime">
-        <HintPath>C:\Users\lukeb\My project (1)\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Searcher.Editor">
         <HintPath>C:\Users\lukeb\My project (1)\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
         <HintPath>C:\Users\lukeb\My project (1)\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.HighDefinition.Editor">
-        <HintPath>C:\Users\lukeb\My project (1)\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>C:\Users\lukeb\My project (1)\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -669,14 +858,15 @@
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>C:\Users\lukeb\My project (1)\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.HighDefinition.Config.Runtime">
-        <HintPath>C:\Users\lukeb\My project (1)\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
         <HintPath>C:\Users\lukeb\My project (1)\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="ThryAssemblyDefinition.csproj">
+      <Project>{ad25b94e-a9f0-3213-0a73-0211576b4d16}</Project>
+      <Name>ThryAssemblyDefinition</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
