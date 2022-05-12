@@ -242,8 +242,8 @@ public class Main: MonoBehaviour {
     //    Song.Play();
     //}
 
-    int timeBefore = Mathf.RoundToInt(Time.time - loadingTime * 1000) - Mathf.RoundToInt(Time.deltaTime * 1000);
-    int time = Mathf.RoundToInt(Time.time - loadingTime * 1000) + Mathf.RoundToInt(Time.deltaTime * 1000);
+    int timeBefore = Mathf.RoundToInt((Time.time - loadingTime) * 1000) - Mathf.RoundToInt(Time.deltaTime * 1000);
+    int time = Mathf.RoundToInt((Time.time - loadingTime) * 1000) + Mathf.RoundToInt(Time.deltaTime * 1000);
     if (Time.time - loadingTime > 3.179656f && !played) {
       Song.Play();
       played = true;
