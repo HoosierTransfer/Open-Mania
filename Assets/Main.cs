@@ -6,6 +6,9 @@ using System;
 using UnityEngine.Networking;
 
 public class Main: MonoBehaviour {
+  public int score = 0;
+  public List <float> acc = new List<float>();
+  public int accuracy = 100;
   public List < HitCircle > HitCircleList = new List < HitCircle > ();
   public AudioSource hitSounds;
   public AudioClip songSource;
@@ -317,6 +320,30 @@ public class Main: MonoBehaviour {
      
 
 }
+
+
+  void judgements(int hitDelay) {
+    //300 = +50 200=+80 100=+110 50=+137
+    if(hitDelay < 50 && !hitDelay < 0) {
+      score+=300;
+      acc.Add(100f);
+    } else if(!hitdelay < 50 && hitdelay < 80 && !hitdelay < 0) {
+      score+=200;
+      acc.add(77.77f);
+    } else if(!hitdelay < 80 && hitdelay < 110 && !hitdelay < 0 ) {
+      score+=100;
+      acc.add(55.55f);
+    } else if(!hitdelay < 110 && hitdelay < 137 && !hitdelay < 0 ) {
+      score+=50;
+      acc.add(16.33f);
+    } else if(!hitdelay < 137 && hitdelay < 2000 && !hitdelay < 0 ) {
+      acc.add(0f);
+    }
+    for(int i = 0; i < acc.Count; i++) {
+      accuracy+=acc[i];
+    }
+    accuracy = accuracy / acc.Count;
+  }
 
 }
 
