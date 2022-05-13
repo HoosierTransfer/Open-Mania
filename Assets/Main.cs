@@ -6,6 +6,7 @@ using System;
 using UnityEngine.Networking;
 
 public class Main: MonoBehaviour {
+  public float health = 1f;
   public int hitError = 0;
   public int score = 0;
   public List <float> acc = new List<float>();
@@ -237,6 +238,10 @@ public class Main: MonoBehaviour {
   // Update is called once per frame
   void Update() {
     if(isAudioLoaded) {
+    health -= (HPDrainRate * 0.01f) * Time.deltaTime;
+    if(health>1) {
+      health = 0;
+    }
     if (Input.GetKeyDown(KeyCode.D) == true || Input.GetKeyDown(KeyCode.F) == true || Input.GetKeyDown(KeyCode.J) == true || Input.GetKeyDown(KeyCode.K) == true) {
       hitSounds.Play();
     }
@@ -329,7 +334,6 @@ public class Main: MonoBehaviour {
      Song.clip = DownloadHandlerAudioClip.GetContent(request);
      isAudioLoaded = true;
      loadingTime = Time.time;
-     
 
 }
 
@@ -347,19 +351,25 @@ public class Main: MonoBehaviour {
 
   void judgements(int hitDelay) {
     //300 = +50 200=+80 100=+110 50=+137
-    if(hitDelay < 50 && !hitDelay < 0) {
+    if(hitDelay <= (80-(OD*6)) && !hitDelay < 0) {
       score+=300;
       acc.Add(100f);
-    } else if(!hitdelay < 50 && hitdelay < 80 && !hitdelay < 0) {
-      score+=200;
-      acc.add(77.77f);
-    } else if(!hitdelay < 80 && hitdelay < 110 && !hitdelay < 0 ) {
+      if(health < 0.96f) {
+        health+=0.05
+      }
+    } else if(!hitdelay <= (80-(OD*6)) && hitdelay <= (140-(OD*8)) && !hitdelay < 0) {
       score+=100;
-      acc.add(55.55f);
-    } else if(!hitdelay < 110 && hitdelay < 137 && !hitdelay < 0 ) {
+      acc.add(55.33f);
+            if(health < 0.96f) {
+        health+=0.03
+      }
+    } else if(!hitdelay <= (140-(OD*8)) && hitdelay <= (200-(OD*10)) && !hitdelay < 0 ) {
       score+=50;
       acc.add(16.33f);
-    } else if(!hitdelay < 137 && hitdelay < 2000 && !hitdelay < 0 ) {
+            if(health < 0.96f) {
+        health+=0.01
+      }
+    } else if(!hitdelay <= (200-(OD*10)) && hitdelay <= 2000 && !hitdelay < 0 ) {
       acc.add(0f);
     }
     for(int i = 0; i < acc.Count; i++) {
