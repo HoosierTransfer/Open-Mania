@@ -6,6 +6,7 @@ using System;
 using UnityEngine.Networking;
 
 public class Main: MonoBehaviour {
+  public int hitError = 0;
   public int score = 0;
   public List <float> acc = new List<float>();
   public int accuracy = 100;
@@ -258,13 +259,24 @@ public class Main: MonoBehaviour {
         for (int i = 0; i < 2; i++) {
           if (HitCircleList[currentNote].x == 64) {
             NoteEmitters[0].GetComponent < Notes > ().NoteEvent();
-            
+            StartCoroutine(noteHitTiming(KeyCode.D, HitCircleList[currentNote].time));
+            judgements(hitError);
+
           } else if (HitCircleList[currentNote].x == 192) {
             NoteEmitters[1].GetComponent < Notes > ().NoteEvent();
+            StartCoroutine(noteHitTiming(KeyCode.F, HitCircleList[currentNote].time));
+            judgements(hitError);
+
           } else if (HitCircleList[currentNote].x == 320) {
             NoteEmitters[2].GetComponent < Notes > ().NoteEvent();
+            StartCoroutine(noteHitTiming(KeyCode.J, HitCircleList[currentNote].time));
+            judgements(hitError);
+
           } else if (HitCircleList[currentNote].x == 448) {
             NoteEmitters[3].GetComponent < Notes > ().NoteEvent();
+            StartCoroutine(noteHitTiming(KeyCode.K, HitCircleList[currentNote].time));
+            judgements(hitError);
+            
           }
           currentNote++;
         }
@@ -323,16 +335,17 @@ public class Main: MonoBehaviour {
 
 
   private IEnumerator noteHitTiming(KeyCode key, int noteTime) {
-    float hitTime = 0;
-    while(!Input.GetKey(key)){
+    float hitTime = 0f;
+    float timeOld = Time.time;
+    while(!Input.GetKey(key) || Time.time - timeOld > 3.179656f){
       hitTime = Mathf.RoundToInt((Time.time - loadingTime) * 1000)
     }
-    
-
+    hitError = hitTime - noteTime;
+    yield return null;
   }
 
 
-  int judgements(int hitDelay) {
+  void judgements(int hitDelay) {
     //300 = +50 200=+80 100=+110 50=+137
     if(hitDelay < 50 && !hitDelay < 0) {
       score+=300;
@@ -353,7 +366,6 @@ public class Main: MonoBehaviour {
       accuracy+=acc[i];
     }
     accuracy = accuracy / acc.Count;
-    return acc;
   }
 
 }
