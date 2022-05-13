@@ -258,7 +258,7 @@ public class Main: MonoBehaviour {
         for (int i = 0; i < 2; i++) {
           if (HitCircleList[currentNote].x == 64) {
             NoteEmitters[0].GetComponent < Notes > ().NoteEvent();
-
+            
           } else if (HitCircleList[currentNote].x == 192) {
             NoteEmitters[1].GetComponent < Notes > ().NoteEvent();
           } else if (HitCircleList[currentNote].x == 320) {
@@ -322,7 +322,17 @@ public class Main: MonoBehaviour {
 }
 
 
-  void judgements(int hitDelay) {
+  private IEnumerator noteHitTiming(KeyCode key, int noteTime) {
+    float hitTime = 0;
+    while(!Input.GetKey(key)){
+      hitTime = Mathf.RoundToInt((Time.time - loadingTime) * 1000)
+    }
+    
+
+  }
+
+
+  int judgements(int hitDelay) {
     //300 = +50 200=+80 100=+110 50=+137
     if(hitDelay < 50 && !hitDelay < 0) {
       score+=300;
@@ -343,6 +353,7 @@ public class Main: MonoBehaviour {
       accuracy+=acc[i];
     }
     accuracy = accuracy / acc.Count;
+    return acc;
   }
 
 }
