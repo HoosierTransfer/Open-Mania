@@ -155,7 +155,7 @@ public class Main: MonoBehaviour {
 
     int timingStart = 0;
     int timingEnd = 0;
-    //add multiple bpm
+    //add changing bpm
     for (int i = 0; i < map.Count; i++) {
       tmp = map[i];
 
@@ -215,7 +215,7 @@ public class Main: MonoBehaviour {
       HitCircleList.Add(currentHitCircle);
     }
 
-    //HitCircleList = this.HitCircleList;
+  
 
     Debug.Log(title);
     Debug.Log(artist);
@@ -223,19 +223,8 @@ public class Main: MonoBehaviour {
     Debug.Log(HPDrainRate);
     Debug.Log(OD);
     Debug.Log(("file://" + Application.dataPath + "/" + dir + "/" + AudioFilename).Replace(osuFile + "/", "").Replace("Assets/Assets/", "Assets/").Replace("\\", "/"));
-  //   for (int i = 0; i < HitCircleList.Count; i++) {
-  //     Debug.Log(HitCircleList[i].x);
-  //     Debug.Log(HitCircleList[i].time);
-  //     Debug.Log(HitCircleList[i].type);
-  //   }
-  //   for (int i = 0; i < timingPointList.Count; i++) {
-  //     Debug.Log(timingPointList[i].time);
-  //     Debug.Log(timingPointList[i].beatLength);
-  //     Debug.Log(timingPointList[i].effects);
-  //   }
   }
   public bool played = false;
-  // Update is called once per frame
   void Update() {
     if(isAudioLoaded) {
     health -= (HPDrainRate * 0.01f) * Time.deltaTime;
@@ -246,11 +235,6 @@ public class Main: MonoBehaviour {
       hitSounds.Play();
     }
     List < int > avg = new List < int > ();
-    //if (Time.frameCount == 1)
-    //{
-    //    Song.Play();
-    //}
-
     int timeBefore = Mathf.RoundToInt((Time.time - loadingTime) * 1000) - Mathf.RoundToInt(Time.deltaTime * 1000);
     int time = Mathf.RoundToInt((Time.time - loadingTime) * 1000) + Mathf.RoundToInt(Time.deltaTime * 1000);
     if (Time.time - loadingTime > 3.179656f && !played) {
