@@ -359,14 +359,14 @@ public class Main: MonoBehaviour {
       }
     } else if(!hitdelay <= (80-(OD*6)) && hitdelay <= (140-(OD*8)) && !hitdelay < 0) {
       score+=100;
-      acc.add(55.33f);
-            if(health < 0.96f) {
+      acc.add(33.33f);
+      if(health < 0.96f) {
         health+=0.03
       }
     } else if(!hitdelay <= (140-(OD*8)) && hitdelay <= (200-(OD*10)) && !hitdelay < 0 ) {
       score+=50;
-      acc.add(16.33f);
-            if(health < 0.96f) {
+      acc.add(16.67f);
+      if(health < 0.96f) {
         health+=0.01
       }
     } else if(!hitdelay <= (200-(OD*10)) && hitdelay <= 2000 && !hitdelay < 0 ) {
