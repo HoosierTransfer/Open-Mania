@@ -155,10 +155,8 @@ public class Main: MonoBehaviour {
 
     int timingStart = 0;
     int timingEnd = 0;
-    //add changing bpm
     for (int i = 0; i < map.Count; i++) {
       tmp = map[i];
-
       if (tmp.Contains("[TimingPoints]")) {
         timingStart = i + 1;
         break;
@@ -168,7 +166,6 @@ public class Main: MonoBehaviour {
 
     for (int i = 0; i < map.Count; i++) {
       tmp = map[i];
-
       if (tmp.Contains("[HitObjects]")) {
         timingEnd = i;
         break;
@@ -399,6 +396,25 @@ public class HitCircle {
     this.time = time;
     this.type = type;
     this.hitSound = hitSound;
+    //this.hitSample = hitSample;
+  }
+}
+
+public class Hold {
+  public int x;
+  public int y;
+  public int time;
+  public int type;
+  public int hitSound;
+  public int endTime
+  //public int[] hitSample;
+  public Hold(int x, int y, int time, int type, int hitSound, int endTime /*int[] hitSample*/ ) {
+    this.x = x;
+    this.y = y;
+    this.time = time;
+    this.type = type;
+    this.hitSound = hitSound;
+    this.endTime = endTime
     //this.hitSample = hitSample;
   }
 }
