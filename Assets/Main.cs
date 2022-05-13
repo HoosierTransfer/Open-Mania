@@ -350,7 +350,6 @@ public class Main: MonoBehaviour {
 
 
   void judgements(int hitDelay) {
-    //300 = +50 200=+80 100=+110 50=+137
     if(hitDelay <= (80-(OD*6)) && !hitDelay < 0) {
       score+=300;
       acc.Add(100f);
