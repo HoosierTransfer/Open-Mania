@@ -1,2 +1,4 @@
 # Open Mania
- osu mania but bad
+osu mania clone
+
+VER 1.0 RELEASING IN 2 WEEKS
