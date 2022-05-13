@@ -6,6 +6,13 @@ using System;
 using UnityEngine.Networking;
 
 public class Main: MonoBehaviour {
+  public int countPerfect = 0;
+  public int countGreat = 0;
+  public int countOk = 0;
+  public int countMeh = 0;
+  public int countMiss = 0;
+
+  public int combo = 0;
   public float health = 1f;
   public int hitError = 0;
   public int score = 0;
@@ -224,9 +231,9 @@ public class Main: MonoBehaviour {
   public bool played = false;
   void Update() {
     if(isAudioLoaded) {
-    health -= (HPDrainRate * 0.01f) * Time.deltaTime;
+    health -= ((HPDrainRate * 0.0025f) * Time.deltaTime) * 10;
     if(health>1) {
-      health = 0;
+      health = 1;
     }
     if (Input.GetKeyDown(KeyCode.D) == true || Input.GetKeyDown(KeyCode.F) == true || Input.GetKeyDown(KeyCode.J) == true || Input.GetKeyDown(KeyCode.K) == true) {
       hitSounds.Play();
@@ -283,7 +290,6 @@ public class Main: MonoBehaviour {
         for (int i = 0; i < 4; i++) {
           if (HitCircleList[currentNote].x == 64) {
             NoteEmitters[0].GetComponent < Notes > ().NoteEvent();
-
           } else if (HitCircleList[currentNote].x == 192) {
             NoteEmitters[1].GetComponent < Notes > ().NoteEvent();
           } else if (HitCircleList[currentNote].x == 320) {
@@ -331,26 +337,45 @@ public class Main: MonoBehaviour {
 
 
   void judgements(int hitDelay) {
-    if(hitDelay <= (80-(OD*6)) && !hitDelay < 0) {
+    if(hitDelay = 0 && !hitDelay < 0) {
+      countPerfect++;
+      combo++;
+      score+=315;
+      if(health < 0.96f) {
+        health+=0.0525
+      }
+
+    } else if(hitDelay <= (80-(OD*6)) && !hitDelay < 0) {
+      countGreat++;
+      combo++;
       score+=300;
       acc.Add(100f);
       if(health < 0.96f) {
-        health+=0.05
+        health+=0.025
       }
     } else if(!hitdelay <= (80-(OD*6)) && hitdelay <= (140-(OD*8)) && !hitdelay < 0) {
+      countOk++;
+      combo++;
       score+=100;
       acc.add(33.33f);
       if(health < 0.96f) {
         health+=0.03
       }
     } else if(!hitdelay <= (140-(OD*8)) && hitdelay <= (200-(OD*10)) && !hitdelay < 0 ) {
+      countMeh++;
+      combo++;
       score+=50;
       acc.add(16.67f);
       if(health < 0.96f) {
-        health+=0.01
+        health-=0.0025f
       }
     } else if(!hitdelay <= (200-(OD*10)) && hitdelay <= 2000 && !hitdelay < 0 ) {
+      countMiss++;
+      combo = 0;
       acc.add(0f);
+      if(health > 0) {
+        health-=0.05
+      }
     }
     for(int i = 0; i < acc.Count; i++) {
       accuracy+=acc[i];
