@@ -6,12 +6,13 @@ using System;
 using UnityEngine.Networking;
 
 public class Main: MonoBehaviour {
+  public int modMultiplier = 1;
   public int countPerfect = 0;
   public int countGreat = 0;
   public int countOk = 0;
   public int countMeh = 0;
   public int countMiss = 0;
-
+  public int difficultyMultiplier = 0;
   public int combo = 0;
   public float health = 1f;
   public int hitError = 0;
@@ -219,7 +220,17 @@ public class Main: MonoBehaviour {
       HitCircleList.Add(currentHitCircle);
     }
 
-  
+    int diffValue = OD + HPDrainRate;
+
+    if(diffValue <= 5) {
+      difficultyMultiplier = 2;
+    } else if(diffValue !< 6 && diffValue <= 12) {
+      difficultyMultiplier = 3;
+    } else if(diffValue !< 13 && diffValue <= 17) {
+      difficultyMultiplier = 4;
+    } else if(diffValue !< 19 && diffValue <= 24) {
+      difficultyMultiplier = 5;
+    }
 
     Debug.Log(title);
     Debug.Log(artist);
@@ -337,10 +348,11 @@ public class Main: MonoBehaviour {
 
 
   void judgements(int hitDelay) {
+    int hitScore = 0;
     if(hitDelay = 0 && !hitDelay < 0) {
       countPerfect++;
       combo++;
-      score+=315;
+      hitScore = 315 + (315 * ((combo * difficultyMultiplier * modMultiplier) / 25));
       if(health < 0.96f) {
         health+=0.0525
       }
@@ -348,7 +360,7 @@ public class Main: MonoBehaviour {
     } else if(hitDelay <= (80-(OD*6)) && !hitDelay < 0) {
       countGreat++;
       combo++;
-      score+=300;
+      hitScore = 300 + (300 * ((combo * difficultyMultiplier * modMultiplier) / 25));
       acc.Add(100f);
       if(health < 0.96f) {
         health+=0.025
@@ -356,7 +368,7 @@ public class Main: MonoBehaviour {
     } else if(!hitdelay <= (80-(OD*6)) && hitdelay <= (140-(OD*8)) && !hitdelay < 0) {
       countOk++;
       combo++;
-      score+=100;
+      hitScore = 100 + (100 * ((combo * difficultyMultiplier * modMultiplier) / 25));
       acc.add(33.33f);
       if(health < 0.96f) {
         health+=0.03
@@ -364,7 +376,7 @@ public class Main: MonoBehaviour {
     } else if(!hitdelay <= (140-(OD*8)) && hitdelay <= (200-(OD*10)) && !hitdelay < 0 ) {
       countMeh++;
       combo++;
-      score+=50;
+      hitScore = 50 + (50 * ((combo * difficultyMultiplier * modMultiplier) / 25));
       acc.add(16.67f);
       if(health < 0.96f) {
         health-=0.0025f
@@ -380,6 +392,7 @@ public class Main: MonoBehaviour {
     for(int i = 0; i < acc.Count; i++) {
       accuracy+=acc[i];
     }
+    score+=hitScore;
     accuracy = accuracy / acc.Count;
   }
 
