@@ -6,6 +6,9 @@ using System;
 using UnityEngine.Networking;
 
 public class Main: MonoBehaviour {
+  public float difficultyRating = 0;
+  public int maxScore = 0;
+  public int avarageTimeBetweenNotes = 0;
   public int modMultiplier = 1;
   public int countPerfect = 0;
   public int countGreat = 0;
@@ -220,6 +223,13 @@ public class Main: MonoBehaviour {
       HitCircleList.Add(currentHitCircle);
     }
 
+    for(int i = HitCircleList.Count; i > -1; i--) {
+      avarageTimeBetweenNotes+=HitCircleList[i]-HitCircleList[i-1];
+    }
+    avarageTimeBetweenNotes = avarageTimeBetweenNotes / HitCircleList.Count;
+
+    float notesPerSecond = avarageTimeBetweenNotes / 1000;
+
     int diffValue = OD + HPDrainRate;
 
     if(diffValue <= 5) {
@@ -231,6 +241,12 @@ public class Main: MonoBehaviour {
     } else if(diffValue !< 19 && diffValue <= 24) {
       difficultyMultiplier = 5;
     }
+
+    for(int i = 0; i < HitCircleList.Count; i++) {
+      maxScore+= 315 + (315 * ((i * difficultyMultiplier * modMultiplier) / 25));
+    }
+
+    difficultyRating = (notesPerSecond + (HitCircleList.Count / 500)) * (difficultyMultiplier / 5)
 
     Debug.Log(title);
     Debug.Log(artist);
