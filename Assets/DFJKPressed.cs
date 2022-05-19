@@ -5,6 +5,7 @@ using System;
 
 public class DFJKPressed : MonoBehaviour
 {
+    public bool keyDown = false;
     //public AudioSource hitSounds;
     private ParticleSystem.Particle[] particleList;
     public ParticleSystem NoteEmiter;
@@ -26,9 +27,11 @@ public class DFJKPressed : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         
-        if(Input.GetKey(gameObject.tag.ToLower()) == true)
+        if(Input.GetKey(gameObject.tag.ToLower()) == true && keyDown == false)
         {
+
             // GetComponent<MeshRenderer>().material.color = new Color(230f / 255f, 0f, 38f / 255f);
             float closestDistance = 10000f;
             int currentParticle = -1;
@@ -50,6 +53,8 @@ public class DFJKPressed : MonoBehaviour
             //hitSounds.Stop();
             //hitSounds.Play();
             }
+
+        keyDown = Input.GetKey(gameObject.tag.ToLower());
 } 
         //{
             //GetComponent<MeshRenderer>().material.color = new Color(0f, 0f, 0f);
